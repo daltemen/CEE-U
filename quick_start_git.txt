@@ -1,0 +1,52 @@
+***********
+Clonar un repositorio.
+
+git clone <url_del_repositorio>
+
+
+***********
+
+Para saber que archivos he modificado
+
+git status
+
+************
+
+Para mirar los cambios que he realizado
+
+git diff <nombre_del_archivo>
+
+
+*************
+
+Para agregar los archivos antes de realizar un commit 
+
+(Para agregar todos los archivos con cambios)
+git add -A
+
+(Para agregar archivo por archivo)
+
+git add <nombre_del_archivo>
+
+**************
+
+Para realizar un commit 
+
+git commit -m "Mensaje corto descriptivo del cambio realizado"
+
+
+***************
+Para subir los cambios al repositorio en GitHub
+git push -u origin master
+
+
+***************
+
+Para actualizar el repositorio local al commit mas reciente
+
+git pull
+
+
+***************
+
+git log
