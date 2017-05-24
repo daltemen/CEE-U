@@ -1,0 +1,64 @@
+.panel-body a {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.inner p {
+    padding: 13% 0;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+.inner .inner-title p {
+    padding-top: 4%;
+    padding-bottom: 18%;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.inner span {
+    position: absolute;
+    bottom: 2%;
+    text-align: justify;
+    padding: 4% 18% 8% 1%;
+    font-size: 12px;
+}
+
+.tab-content .panel-primary,
+.panel-primary .tab-content {
+    padding: 2%;
+}
+
+.tab-pane h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #245560;
+}
+
+.tab-pane h3 {
+    margin: 3% 0 0 0;
+}
+
+.tab-pane hr {
+    width: 30%;
+    display: block;
+    margin: 3% 0;
+    border: rgb(66, 165, 191) 1px solid;
+    border-radius: 10px;
+}
+
+.no-padding {
+    padding: auto;
+}
+
+.tab-pane > ul > li {
+    border: 0;
+    border-bottom: 1px solid rgba(180, 181, 167, 0.4);
+    background: none;
+}
+
+.image-info {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+}

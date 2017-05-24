@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="../../plugins/daterangepicker/daterangepicker.css">
     <!-- bootstrap wysihtml5 - text editor -->
     <link rel="stylesheet" href="../../plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
-    <link rel="stylesheet" href="herramientas_style.css">
+    <link rel="stylesheet" href="../../dist/css/herramientas_style.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -491,43 +491,20 @@
                         </div>
                         <!-- ./col -->
                     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <div class="row">
-                        <section class="col-lg-12">
+                        <section class="col-lg-12 tab-content">
                             <div class="panel panel-primary">
-                                <div class="panel-heading">
-                                    Simulación de crédito para emprendimiento
-                                </div>
-                                <div class="panel-body">
-                                    <div class="col-lg-3 links">
-                                        <ul class="main-menu">
-                                            <li id="txtBut1">Leer importante!</li>
-                                            <li id="txtBut2">Lorem ipsum</li>
-                                            <li id="txtBut3">Lorem ipsum</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-lg-9 text" id="txtInfa">
-                                        <p>Antes de Adquirir un Crédito</p>
-                                        <br>
+                                <ul class="nav nav-tabs">
+                                    <li class="active"><a a data-toggle="tab" href="#home">Inicio</a></li>
+                                    <li><a data-toggle="tab" href="#info">Información</a></li>
+                                    <li><a data-toggle="tab" href="#simmu">Simuladores</a></li>
+                                </ul>
+                                <div class="row tab-content">
+                                    <div id="home" class="tab-pane tab-home fade in active bg">
+                                        <h3>Tener en cuenta</h3>
+                                        <small>Antes de pedir un crédito</small>
+                                        <hr>
+
                                         <p>
                                             El crédito, puede ser una herramienta poderosa para alcanzar sus objetivos
                                             financieros, pero también es posible que se constituya en un enemigo invisible
@@ -538,11 +515,9 @@
                                             usted pregunte y comprenda cuál es el compromiso que esta adquiriendo, para lo
                                             cual es importante tener en cuenta algunos aspectos importantes.
                                         </p>
+
                                         <ul class="list-group my-1">
                                             <li class="list-group-item">
-                                                <b>
-                                                    Tener en cuenta.
-                                                </b>
                                                 <p>
                                                     Cuando se adquiere un crédito, se está tomando dinero prestado, el cual Usted
                                                     se compromete a pagar en un tiempo determinado y a una tasa de interés acordada
@@ -552,58 +527,242 @@
                                                 </p>
                                             </li>
                                             <li class="list-group-item">
-                                                <b>
-                                                    Tener en cuenta
-                                                </b>
                                                 <p>
                                                     Al adquirir un crédito, Usted acepta hacer pagos de acuerdo a un compromiso
                                                     adquirido; si se llega a presentar demoras o no efectúa los pagos respectivos,
                                                     tendrá cargos adicionales por el incumplimiento.
                                                 </p>
                                             </li>
-                                            <li class="list-group-item">
-                                                <b>
-                                                    IMPORTANTE
-                                                </b>
-                                                <p>
+                                        </ul>
+
+                                        <div class="alert alert-danger">
+                                            <b>
+                                                IMPORTANTE!
+                                            </b>
+                                                <p class="no-padding">
                                                     Si Usted no paga a tiempo, además de los sobre costos por intereses de mora,
                                                     cobros prejurídicos etc., también ocasiona un reporte a las centrales de riesgo,
                                                     lo cual afecta su historial crediticio generando dificultades para obtener un
                                                     crédito en el futuro.
                                                 </p>
-                                            </li>
-                                        </ul>
+                                        </div>
                                     </div>
-                                    <div class="col-lg-9 text" id="txtInfb">
-                                        Lorem ipsum
+                                    <div id="info" class="tab-pane fade">
+                                        <h3>datos</h3>
+                                        <small>Consulte información de donde podría realizar un crédito</small>
+                                        <hr>
+                                        <div class="panel-body">
+                                            <p>
+                                                En la pagina de la superintendencia financiera de Colombia, podemos encontrar una
+                                                herramienta bastante útil para localizar los distintos puntos a nivel nacional donde
+                                                sea posible realizar un crédito.
+
+                                                Ofreciendo al usuario del sistema, mayor facilidad para encontrar un punto cercado
+                                                de su residencia o lugar donde se encuentra para acercarse por información o realización del crédito.
+                                            </p>
+                                            <a href="https://www.superfinanciera.gov.co/jsp/loader.jsf?lServicio=Publicaciones&lTipo=publicaciones&lFuncion=loadContenidoPublicacion&id=61277" target="_blank">Enlace aquí</a>
+
+                                            <div class="panel panel-info">
+                                                <div class="panel-heading">
+                                                    Localice la entidad que desea buscar
+                                                </div>
+                                                <div class="panel-body">
+                                                    <div class="col-lg-6">
+                                                        <img class="image-info" src="../../dist/img/lookbans.png" alt="">
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <img class="image-info" src="../../dist/img/lookmap.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-info">
+                                                <div class="panel-heading">
+                                                    CONSULTAS DE INTERES
+                                                </div>
+                                                <div class="panel-body">
+                                                    <ul class="list-group my-1">
+                                                        <li class="list-group-item">
+                                                            <div class="row">
+                                                                <div class="row">
+                                                                    <div class="image col-lg-4">
+                                                                        <img class="image-responsive" src="../../dist/img/femprender.png" alt="">
+                                                                    </div>
+                                                                    <div class="text col-lg-8">
+                                                                        <h3>Fondo Emprender</h3>
+                                                                        <small>Fondo de capital semilla</small>
+                                                                        <p>
+                                                                            El Fondo Emprender es un fondo de capital semilla creado por el Gobierno Nacional
+                                                                            en el artículo 40 de la Ley 789 del 27 de Diciembre de 2002: “por la cual
+                                                                            se dictan normas para apoyar el empleo y ampliar la protección social y se modifican
+                                                                            algunos artículos del Código Sustantivo de Trabajo”.
+                                                                        </p>
+                                                                        <a href="http://www.fondoemprender.com/SitePages/Home.aspx" target="_blank">Enlace aquí</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <div class="row">
+                                                                <div class="row">
+                                                                    <div class="image col-lg-4">
+                                                                        <img class="image-responsive" src="../../dist/img/innpulsa.png" alt="">
+                                                                    </div>
+                                                                    <div class="text col-lg-8">
+                                                                        <h3>Innpulsa</h3>
+                                                                        <small>Unidad de Gestión de Crecimiento Empresarial del Gobierno Nacional</small>
+                                                                        <p>
+                                                                            Comprometidos con los empresarios y emprendedores innovadores, para
+                                                                            que alcancen el máximo potencial de su empresa,
+                                                                             a través de servicios especializados y estrategias de financiación,
+                                                                             partiendo de un entendimiento integral de su producto o negocio.
+                                                                        </p>
+                                                                        <a href="https://www.innpulsacolombia.com/es/" target="_blank">Enlace aquí</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <div class="row">
+                                                                <div class="row">
+                                                                    <div class="image col-lg-4">
+                                                                        <img class="image-responsive" src="../../dist/img/bancolombia.png" alt="">
+                                                                    </div>
+                                                                    <div class="text col-lg-8">
+                                                                        <h3>Bancolombia</h3>
+                                                                        <small>Microcrédito</small>
+                                                                        <p>
+                                                                             Microcréditos, son la puerta de entrada para crecer en el mundo de los negocios y poder seguir dando vida a tus sueños.
+                                                                             Una alternativa de financiación para microempresarios independientes, que te presta desde 1 SMMLV.
+                                                                        </p>
+                                                                        <a href="https://www.grupobancolombia.com/wps/portal/empresas/productos-servicios/creditos/cartera-comercial/microcredito/" target="_blank">Enlace aquí</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <div class="row">
+                                                                <div class="row">
+                                                                    <div class="image col-lg-4">
+                                                                        <img class="image-responsive" src="../../dist/img/bbogota.png" alt="">
+                                                                    </div>
+                                                                    <div class="text col-lg-8">
+                                                                        <h3>Banco de Bogotá</h3>
+                                                                        <small>Crediprogreso</small>
+                                                                        <p>
+                                                                            Es el crédito pensado para los clientes con metas
+                                                                            claras y proyectos por cumplir, sus beneficios son el impulso necesario para echar
+                                                                            a andar tus ideas de negocio o empresa.
+                                                                        </p>
+                                                                        <a href="https://www.bancodebogota.com/wps/portal/banco-de-bogota/bogota/bancas/para-ti/banca-microfinanzas/creditos/crediprogreso" target="_blank">Enlace aquí</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <div class="row">
+                                                                <div class="row">
+                                                                    <div class="image col-lg-4">
+                                                                        <img class="image-responsive" src="../../dist/img/bbva.png" alt="">
+                                                                    </div>
+                                                                    <div class="text col-lg-8">
+                                                                        <h3>BBVA Bancomer</h3>
+                                                                        <small>Emprendedores</small>
+                                                                        <p>
+                                                                            Son créditos para Capital de Trabajo y/o Equipamiento que se otorgan a Emprendedores con una tasa fija subsidiada,
+                                                                            para egresados de los sistemas de incubación definidos por la Secretaría de Economía.
+                                                                        </p>
+                                                                        <a href="https://www.bancomer.com/negocios/emprendedores.jsp" target="_blank">Enlace aquí</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-lg-9 text" id="txtInfc">
-                                        Lorem ipsum Lorem ipsum
+                                    <div id="simmu" class="tab-pane fade">
+                                        <h3>Simulador</h3>
+                                        <small>Herramienta que simulará sus pagos de crédito</small>
+                                        <hr>
+
+                                        <div class="col-lg-6">
+                                            <div class="panel panel-info">
+                                                <div class="panel-heading">
+                                                    Herramienta de simulación
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p>
+                                                        El siguiente simulador cuenta con datos sencillos para que se guíe a la hora de realizar
+                                                        un crédito con información relevante para tomar algún tipo de desición; el mismo cuenta
+                                                        con datos que deben ser completados por el usuario para realizar la operación designada.
+                                                    </p>
+                                                    <img class="image-responsive" src="../../dist/img/simuladorcreditos.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <div class="panel panel-info">
+                                                <div class="panel-heading">
+                                                    Otros simuladores
+                                                </div>
+                                                <div class="panel-body">
+                                                    <ul class="list-group my-1">
+                                                        <li class="list-group-item">
+                                                            <div class="row">
+                                                                <div class="col-lg-12 text">
+                                                                    <h3>Bancolombia</h3>
+                                                                    <p>
+                                                                        Simulador sencillo con opción de simular el monto o la cuota a pagar según una tasa fija o variable.
+                                                                    </p>
+                                                                    <a href="https://www.grupobancolombia.com/wps/portal/personas/productos-servicios/creditos/consumo/libre-inversion/simulador-credito-consumo/" target="_blank">Enlace aquí</a>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <div class="row">
+                                                                <div class="col-lg-12 text">
+                                                                    <h3>Colpatria</h3>
+                                                                    <p>
+                                                                        Simulador sencillo que permite al usuario elegir un monto según los criterios seleccionados del tipo de crédito a realizar,
+                                                                        ademas de un plazo no mayor a 60 meses. El monto varia entre los 1’200.00 – 80’000.000.
+                                                                    </p>
+                                                                    <a href="https://www.colpatria.com/Personas/prestamos/mas-informacion-y-herramientas/simulador-de-multiprestamo-consumo" target="_blank">Enlace aquí</a>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <div class="row">
+                                                                <div class="col-lg-12 text">
+                                                                    <h3>Banco Av Villas</h3>
+                                                                    <p>
+                                                                        Simulador sencillo bastante parecido al anterior, pero permite al usuario tener un seguro en caso de desempleo.
+                                                                    </p>
+                                                                    <a href="https://www.colpatria.com/Personas/prestamos/mas-informacion-y-herramientas/simulador-de-multiprestamo-consumo" target="_blank">Enlace aquí</a>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <div class="row">
+                                                                <div class="col-lg-12 text">
+                                                                    <h3>Superintendencias Financiera</h3>
+                                                                    <p>
+                                                                        Simulador y tarifas de servicios financieros
+                                                                    </p>
+                                                                    <a href="https://www.superfinanciera.gov.co/jsp/loader.jsf?lServicio=Publicaciones&lTipo=publicaciones&lFuncion=loadContenidoPublicacion&id=61346" target="_blank">Enlace aquí</a>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </section>
                     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </section>
                 <!-- jQuery 2.2.3 -->
                 <script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
