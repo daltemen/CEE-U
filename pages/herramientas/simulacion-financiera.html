@@ -29,6 +29,7 @@
   <link rel="stylesheet" href="../../plugins/daterangepicker/daterangepicker.css">
   <!-- bootstrap wysihtml5 - text editor -->
   <link rel="stylesheet" href="../../plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+  <link rel="stylesheet" href="herramientas_style.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -423,89 +424,431 @@
       <div class="content-wrapper">
         <!-- Content Header (Page header) -->
         <section class="content-header">
-          <h1>
-            Dashboard
-            <small>Control panel</small>
-          </h1>
-          <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li class="active">Dashboard</li>
-          </ol>
+            <h1>
+                Herramientas
+                <small>Simulación</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="index.html"><i class="fa fa-dashboard"></i> Home</a></li>
+                <li class="active">Simulación</li>
+            </ol>
         </section>
 
         <!-- Main content -->
         <section class="content">
           <!-- Small boxes (Stat box) -->
           <div class="row menu">
-            <div class="col-lg-3 col-xs-6">
-              <!-- small box -->
-              <div class="small-box bg-aqua">
-                <div class="inner">
-                  <h3>150</h3>
-
-                  <p>Plan de negocio</p>
-                </div>
-                <div class="icon">
-                  <i class="ion ion-bag"></i>
-                </div>
-                <a href="plan-negocio.html" class="small-box-footer">Más información<i class="fa fa-arrow-circle-right"></i></a>
+              <div class="col-lg-3 col-xs-6">
+                  <!-- small box -->
+                  <div class="small-box bg-aqua">
+                      <div class="inner">
+                          <p>Plan de negocios</p>
+                      </div>
+                      <div class="icon">
+                          <i class="ion ion-easel"></i>
+                      </div>
+                      <a href="plan-negocio.html" class="small-box-footer">Más Información <i class="fa fa-arrow-circle-right"></i></a>
+                  </div>
               </div>
-            </div>
-            <!-- ./col -->
-            <div class="col-lg-3 col-xs-6">
-              <!-- small box -->
-              <div class="small-box bg-green">
-                <div class="inner">
-                  <h3>53<sup style="font-size: 20px">%</sup></h3>
-
-                  <p>Manuales</p>
-                </div>
-                <div class="icon">
-                  <i class="ion ion-stats-bars"></i>
-                </div>
-                <a href="manuales.html" class="small-box-footer">Más información<i class="fa fa-arrow-circle-right"></i></a>
+              <!-- ./col -->
+              <div class="col-lg-3 col-xs-6">
+                  <!-- small box -->
+                  <div class="small-box bg-green">
+                      <div class="inner">
+                          <p>Manuales</p>
+                      </div>
+                      <div class="icon">
+                          <i class="ion ion-ios-photos-outline"></i>
+                      </div>
+                      <a href="manuales.html" class="small-box-footer">Más Información <i class="fa fa-arrow-circle-right"></i></a>
+                  </div>
               </div>
-            </div>
-            <!-- ./col -->
-            <div class="col-lg-3 col-xs-6">
-              <!-- small box -->
-              <div class="small-box bg-yellow">
-                <div class="inner">
-                  <h3>44</h3>
-
-                  <p>Simulación financiera</p>
-                </div>
-                <div class="icon">
-                  <i class="ion ion-person-add"></i>
-                </div>
-                <a href="simulacion-financiera.html" class="small-box-footer">Más información<i class="fa fa-arrow-circle-right"></i></a>
+              <!-- ./col -->
+              <div class="col-lg-3 col-xs-6">
+                  <!-- small box -->
+                  <div class="small-box bg-yellow">
+                      <div class="inner">
+                          <p>Simulación</p>
+                      </div>
+                      <div class="icon">
+                          <i class="ion ion-android-cloud-done"></i>
+                      </div>
+                      <a href="simulacion-financiera.html" class="small-box-footer">Más Información <i class="fa fa-arrow-circle-right"></i></a>
+                  </div>
               </div>
-            </div>
-            <!-- ./col -->
-            <div class="col-lg-3 col-xs-6">
-              <!-- small box -->
-              <div class="small-box bg-red">
-                <div class="inner">
-                  <h3>65</h3>
-
-                  <p>Herramientas</p>
-                </div>
-                <div class="icon">
-                  <i class="ion ion-ios-gear"></i>
-                </div>
-                <a href="herramientas.html" class="small-box-footer">Más información<i class="fa fa-arrow-circle-right"></i></a>
+              <!-- ./col -->
+              <div class="col-lg-3 col-xs-6">
+                  <!-- small box -->
+                  <div class="small-box bg-red">
+                      <div class="inner">
+                          <p>Herramientas</p>
+                      </div>
+                      <div class="icon">
+                          <i class="ion ion-wrench"></i>
+                      </div>
+                      <a href="#" class="small-box-footer">Más Información <i class="fa fa-arrow-circle-right"></i></a>
+                  </div>
               </div>
-            </div>
-            <!-- ./col -->
+              <!-- ./col -->
           </div>
-
-
           <!-- CODIGO MODULO -->
 
+          <div class="row .herramientas">
+              <section class="col-lg-12">
+                  <div class="panel panel-primary">
+                      <div class="panel-heading" role="button" data-toggle="collapse" href="#h-canvas" aria-expanded="false" aria-controls="h-canvas">
+                          Herramientas para el desarrollo de modelos basados en CANVAS
+                      </div>
+                      <div class="panel-body collapse in" id="h-canvas">
+                          <div class="col-lg-6">
+                              <div class="panel panel-success">
+                                  <div class="panel-heading">
+                                      Listado de herramientas CANVAS
+                                  </div>
+                                  <div class="panel-body">
+                                      <p>
+                                          Alexander Osterwalder e Yves Pigneur, autores del “Business Model Generation”,
+                                          han desarrollado el modelo de negocio popular conocido como canvas. El canvas
+                                          está descrito como un lenguaje compartido para la descripción, visualización,
+                                          valoración y el cambio de modelo de negocio. Está desarrollado de 9 bloques
+                                          diferentes que ayudan a focalizar la atención en atributos claves de un negocio.
+                                      </p>
+                                      <ul class="list-group my-1">
+                                          <li class="list-group-item">
+                                              <b>
+                                                  Canvanizer
+                                              </b>
+                                              <p>
+                                                  Es una herramienta desarrollada por Coworking
+                                                  Space Nuremberg, Alemania, que permite crear modelos
+                                                  de negocio basados en canvas de manera colaborativa,
+                                                  para el desarrollo de ideas y definición de estrategias.
+                                              </p>
+                                              <a href="https://canvanizer.com/new/business-model-canvas" target="_blank">Enlace aquí</a>
+                                          </li>
+                                          <li class="list-group-item">
+                                              <b>
+                                                  Google docs Business canvas model
+                                              </b>
+                                              <p>
+                                                  Herramienta que provee Google en la sección de drawing,
+                                                  a manera de plantilla para la realización de un modelo de
+                                                  negocio basado canvas.
+                                              </p>
+                                              <a href="https://docs.google.com/drawings/d/1ZimNRIi0HIFO8GUOuU9We13lOrFR1-s9m-0Ft_hnb8U/edit" target="_blank">Enlace aquí</a>
+                                          </li>
+                                          <li class="list-group-item">
+                                              <b>
+                                                  BmFiddle
+                                              </b>
+                                              <p>
+                                                  Es una herramienta online desarrollada para proveer una plantilla
+                                                  que permita desarrollar ideas de negocio, basado en el modelo de
+                                                  negocio canvas.
+                                              </p>
+                                              <a href="https://bmfiddle.com/f/#/" target="_blank">Enlace aquí</a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-6" style="">
+                              <div class="panel panel-success">
+                                  <div class="panel-heading">
+                                      Imagenes de ejemplo
+                                  </div>
+                                  <div class="panel-body">
+                                      <ul class="list-group">
+                                          <li class="list-group-item">
+                                              <img src="../../dist/img/modelo-canvas.jpg" class="img-responsive" alt="">
+                                          </li>
+                                          <li class="list-group-item">
+                                              <img src="../../dist/img/canvas-model-2.png" class="img-responsive" alt="">
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
 
+                  <div class="panel panel-danger">
+                      <div class="panel-heading" role="button" data-toggle="collapse" href="#h-errores" aria-expanded="false" aria-controls="h-errores">
+                          Costo de los errores al emprender
+                      </div>
+                      <div class="panel-body collapse" id="h-errores">
+                          <div class="col-lg-12">
+                              <ul class="list-group">
+                                  <li class="list-group-item">
+                                      <b>Errores que comete el emprendedor </b>
+                                      <p>
+                                          El enlace nos provee de los 5 errores mas comunes
+                                          que comete el emprendedor y consejos para dejar a
+                                          un lado la incertidumbre y seguir las pasiones con metodo
+                                      </p>
+                                      <a href="https://colombiadigital.net/actualidad/articulos-informativos/item/8980-5-errores-graves-que-comete-un-emprendedor.html">Enlace aquí</a>
+                                  </li>
+                                  <li class="list-group-item">
+                                      <b>Certificación para emprender con éxito</b>
+                                      <p>
+                                          Enlace de Colombia digital que nos provee de herramientas
+                                          para emprender con exito, claves en los casos y certificacion
+                                          online a traves de NetU, bajo el slogan de "A través de la
+                                          Escuela de Emprendimiento y Negocio, Next U dará a los latinoamericanos
+                                          las herramientas para que inicien más negocios exitosos en la región"
+                                      </p>
+                                      <a href="https://colombiadigital.net/actualidad/bytes/item/9546-certificacion-para-emprender-con-exito.html">Enlace aquí</a>
+                                  </li>
+                                  <li class="list-group-item">
+                                      <b>Los 10 errores más comunes que un emprendedor comete al arrancar un startup</b>
+                                      <p>
+                                          Enlace de TICbeat que nos muestra información que normalmente se
+                                          ignora al emprender como lo es; No prestar atención a lo que no
+                                          ha funcionado, miedo al obtener apoyo, esconjencia de equipos, entre otras.
+                                      </p>
+                                      <a href="http://www.ticbeat.com/innovacion/los-10-errores-mas-comunes-que-los-emprendedores-cometen-al-arrancar-una-startup/3/">Enlace aquí</a>
+                                  </li>
+                                  <li class="list-group-item">
+                                      <b>El impacto de las TIC’s en el marketing</b>
+                                      <p>
+                                          Enlace de gestiopolis que nos muestra las maneras de
+                                          hacer uso del maketing para inpulsar una empresa en
+                                          el sector de las TIC's
+                                      </p>
+                                      <a href="https://www.gestiopolis.com/el-impacto-de-las-tics-en-el-marketing/">Enlace aquí</a>
+                                  </li>
+                                  <li class="list-group-item">
+                                      <b>Aplicación de las tic’s en los procesos de investigación de mercados y gestión documental como estrategia de competitividad en la empresa</b>
+                                      <p>
+                                          Ensayo del repositorio de la universidad militar donde
+                                          muestra la aplicacion de las tecnologias en la información
+                                          y comunicacion para el desarrollo de estudios de mercado
+                                          como una herramienta altamente competitiva para una empresa.
+                                      </p>
+                                      <a href="http://repository.unimilitar.edu.co/bitstream/10654/4019/2/DiazMarinoMarthaIsabel2010.pdf">Enlace aquí</a>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
 
+                  <div class="panel panel-success">
+                      <div class="panel-heading" role="button" data-toggle="collapse" href="#h-apps" aria-expanded="false" aria-controls="h-apps">
+                          Herramientas digitales para emprendedores
+                      </div>
+                      <div class="panel-body collapse" id="h-apps">
+                          <ul class="list-group">
+                              <li class="list-group-item">
+                                  <div class="row">
+                                      <div class="col-lg-4 image">
+                                          <img class="img-responsive" src="../../dist/img/fresh.png" alt="">
+                                      </div>
+                                      <div class="col-lg-8 text">
+                                          <b>Fresh Books</b>
+                                          <p>
+                                              Aplicación orientada a dueños de pequeños negocios, para la organización de las finanzas.
+                                          </p>
+                                          <a href="https://www.freshbooks.com/invoice">Enlace aquí</a>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li class="list-group-item">
+                                  <div class="row">
+                                      <div class="col-lg-4 image">
+                                          <img class="img-responsive" src="../../dist/img/google-apps-work.png" alt="">
+                                      </div>
+                                      <div class="col-lg-8 text">
+                                          <b>Google Apps for work </b>
+                                          <p>
+                                              Esta herramienta es indispensable para cualquier empresa: ofrece correo
+                                              electrónico personalizado, videochats, documentos compartidos en tiempo
+                                              real, una seguridad alta y la posibilidad de trabajar desde cualquier
+                                              dispositivo móvil.
+                                          </p>
+                                          <a href="https://gsuite.google.com">Enlace aquí</a>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li class="list-group-item">
+                                  <div class="row">
+                                      <div class="col-lg-4 image">
+                                          <img class="img-responsive" src="../../dist/img/grasshopper.png" alt="">
+                                      </div>
+                                      <div class="col-lg-8 text">
+                                          <b>GrassHopper</b>
+                                          <p>
+                                              Esta app se encarga de convertir la línea de teléfono en un conmutador empresarial;
+                                              se deberá asignar una línea de teléfono, grabar un mensaje de voz de bienvenida y
+                                              asignar opciones de marcado que redirigirán las llamadas a los socios o empleados,
+                                              se encuentren donde se encuentren.
+                                          </p>
+                                          <a href="http://grasshopper.com">Enlace aquí</a>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li class="list-group-item">
+                                  <div class="row">
+                                      <div class="col-lg-4 image">
+                                          <img class="img-responsive" src="../../dist/img/hootsuite.png" alt="">
+                                      </div>
+                                      <div class="col-lg-8 text">
+                                          <b>HootSuite</b>
+                                          <p>
+                                              Para gestionar el control de las redes sociales, esta herramienta es de gran utilidad
+                                              debido a que permite gestionar todas las redes sociales desde un mismo lugar, así como
+                                              programar mensajes y tener acceso a reportes que te muestran el alcance de las publicaciones
+                                              y la interacción con tus usuarios.
+                                          </p>
+                                          <a href="https://hootsuite.com/es/">Enlace aquí</a>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li class="list-group-item">
+                                  <div class="row">
+                                      <div class="col-lg-4 image">
+                                          <img class="img-responsive" src="../../dist/img/mikogo.png" alt="">
+                                      </div>
+                                      <div class="col-lg-8 text">
+                                          <b>Mikogo</b>
+                                          <p>
+                                              Esta app permite tener reuniones virtuales sin necesidad de tener una cámara
+                                              de por medio. Todos los involucrados podrán conectarse un ordenador y ver la
+                                              presentación que se haya preparado. Además, puedes calendarizar juntas y enviar
+                                              invitaciones a los participantes.
+                                          </p>
+                                          <a href="https://www.mikogo.com">Enlace aquí</a>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li class="list-group-item">
+                                  <div class="row">
+                                      <div class="col-lg-4 image">
+                                          <img class="img-responsive" src="../../dist/img/google-analytics.png" alt="">
+                                      </div>
+                                      <div class="col-lg-8 text">
+                                          <b>Google Analytics</b>
+                                          <p>
+                                              Esta herramienta es indispensable para medir las métricas de tu sitio web.
+                                              Te permite conocer las estadísticas de tu página en tiempo real, como el
+                                              número de visitas, páginas vistas, sesiones y las fuentes de tráfico.
+                                              Sirve también para teléfonos móviles.
+                                          </p>
+                                          <a href="https://www.google.com/analytics/">Enlace aquí</a>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li class="list-group-item">
+                                  <div class="row">
+                                      <div class="col-lg-4 image">
+                                          <img class="img-responsive" src="../../dist/img/speedups.jpg" alt="">
+                                      </div>
+                                      <div class="col-lg-8 text">
+                                          <b>Speedups</b>
+                                          <p>
+                                              Esta herramienta conecta con personas que tienen una startup y necesitan
+                                              financiamiento. basada en la estrategia de CrowdFunding, Si se invierte
+                                              en uno de los startups listados, el startup te mantendrá al tanto de su
+                                              desarrollo.
+                                          </p>
+                                          <a href="https://www.seedups.com/region_select.html">Enlace aquí</a>
+                                      </div>
+                                  </div>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
 
-
+                  <div class="panel panel-primary">
+                      <div class="panel-heading" role="button" data-toggle="collapse" href="#h-crowd" aria-expanded="false" aria-controls="h-crowd">
+                          Plataformas Crowdfunding
+                      </div>
+                      <div class="panel-body collapse" id="h-crowd">
+                          <ul class="list-group">
+                              <li class="list-group-item">
+                                  <div class="row">
+                                      <div class="image col-lg-4">
+                                          <img class="img-responsive" src="../../dist/img/gofundme.jpg" alt="">
+                                      </div>
+                                      <div class="text col-lg-8">
+                                          <b>
+                                              GoFundMe
+                                          </b>
+                                          <p>
+                                              Herramienta para financiamiento de ideas y proyectos mediante el crowdfunding
+                                          </p>
+                                          <a href="https://www.gofundme.com/?pc=cf2">Enlace aquí</a>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li class="list-group-item">
+                                  <div class="row">
+                                      <div class="image col-lg-4">
+                                          <img class="img-responsive" src="../../dist/img/kickstarter.png" alt="">
+                                      </div>
+                                      <div class="text col-lg-8">
+                                          <b>
+                                              KickStarter
+                                          </b>
+                                          <p>
+                                              Herramienta para financiamiento de ideas y proyectos mediante el crowdfunding
+                                          </p>
+                                          <a href="https://www.kickstarter.com">Enlace aquí</a>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li class="list-group-item">
+                                  <div class="row">
+                                      <div class="image col-lg-4">
+                                          <img class="img-responsive" src="../../dist/img/indiegogo.jpg" alt="">
+                                      </div>
+                                      <div class="text col-lg-8">
+                                          <b>
+                                              IndieGOGO
+                                          </b>
+                                          <p>
+                                              Herramienta para financiamiento de ideas y proyectos mediante el crowdfunding
+                                          </p>
+                                          <a href="https://www.indiegogo.com/#/picks_for_you">Enlace aquí</a>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li class="list-group-item">
+                                  <div class="row">
+                                      <div class="image col-lg-4">
+                                          <img class="img-responsive" src="../../dist/img/teespring.png" alt="">
+                                      </div>
+                                      <div class="text col-lg-8">
+                                          <b>
+                                              TeeSpring
+                                          </b>
+                                          <p>
+                                              Herramienta para financiamiento de ideas y proyectos mediante el crowdfunding
+                                          </p>
+                                          <a href="https://teespring.com/">Enlace aquí</a>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li class="list-group-item">
+                                  <div class="row">
+                                      <div class="image col-lg-4">
+                                          <img class="img-responsive" src="../../dist/img/patreon.jpg" alt="">
+                                      </div>
+                                      <div class="text col-lg-8">
+                                          <b>
+                                              Patreon
+                                          </b>
+                                          <p>
+                                              Herramienta para financiamiento de ideas y proyectos mediante el crowdfunding
+                                          </p>
+                                          <a href="https://www.patreon.com/">Enlace aquí</a>
+                                      </div>
+                                  </div>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </section>
+          </div>
 
         </section>
         <!-- jQuery 2.2.3 -->
